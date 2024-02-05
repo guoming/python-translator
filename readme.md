@@ -17,6 +17,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+设置环境变量 [查看百度翻译接入文档](https://fanyi-api.baidu.com/product/113) 
+
+``` INI
+BAIDU_APP_ID=xxxx
+BAIDU_APP_SECRET_KEY=xxx
+```
+
 ## 3. 如何使用
 
 文本翻译成中文
